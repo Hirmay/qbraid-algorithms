@@ -65,7 +65,6 @@ def get_bumped_version(latest: str, local: str) -> str:
 
 
 if __name__ == "__main__":
-
     if not PYPROJECT_TOML_PATH.exists():
         raise FileNotFoundError("pyproject.toml not found")
 
